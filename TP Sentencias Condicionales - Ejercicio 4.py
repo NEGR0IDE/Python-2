@@ -1,0 +1,5 @@
+print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ejercicio 3 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+print()
+c= int(input("Ingrese el primer número a: "))
+b= int(input("Ingrese el segundo número b: "))
+c=int(input("Ingrese el número c: "))
