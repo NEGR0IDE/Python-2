@@ -1,0 +1,2 @@
+alumno= "tomigei"
+print(alumno)
