@@ -5,11 +5,10 @@ def ingresar_nombre():
     while True:
         nombre = input("Ingrese el nombre del estudiante : ")
         if nombre=="":
-            print("el nombre no puede estar vacio")
+            pass
         else:
             return nombre
-	
- 
+
 def ingresar_nota():
     """ funcion para ingresar una nota """
     while True:
@@ -22,7 +21,15 @@ def ingresar_nota():
         except:
             print("la nota tiene que ser un valor numerico")
  
- 
+ def continuar():
+    """ funcion para ingresar un nombre """
+    while True:
+        nombre = input("Ingrese el nombre del estudiante : ")
+        if nombre=="":
+            print("el nombre no puede estar vacio")
+        else:
+            return nombre
+
 def promedio_notas(lista_notas):
     """ funcion para mostrar el  promedio de notas de los estudiantes """
     if len(estudiantes)==0:
